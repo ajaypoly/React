@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function Random() {
+function Random({data,item}) {
   return (
     <div>
-        hii all welcome
+      <h1>{data}</h1>
+      <h1>{item}</h1>
     </div>
-  )
+  );
 }
 
-export default Random
+export default Random;
