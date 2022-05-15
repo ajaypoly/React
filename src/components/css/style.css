@@ -1,0 +1,7 @@
+div.card:hover {
+    transform: scale(1.03);
+    transition: 0.4s;
+}
+div.card:not(:hover){
+    transition: 0.4s;   
+}

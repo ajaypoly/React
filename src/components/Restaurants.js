@@ -1,11 +1,12 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import "./css/style.css"
 
 function Restaurants({ item }) {
   return (
     <div>
       <Card className="my-3 p-3 rounded">
-        <Card.Img variant="top" src={item.photograph} className="p-3" />
+        <Card.Img variant="top" src={item.photograph} className="p-3 rounded" />
         <Card.Body>
           <Card.Title as="div">{item.name}</Card.Title>
           <Card.Title as="div">
