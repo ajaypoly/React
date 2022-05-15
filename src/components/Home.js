@@ -22,7 +22,7 @@ function Home() {
         {hotels
           ? hotels.map((item) => (
               <Col sm={12} md={8} lg={6} xl={3}>
-                <Restaurants item={item}/>
+                <Restaurants item={item} />
               </Col>
             ))
           : "error"}

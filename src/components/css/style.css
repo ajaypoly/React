@@ -5,3 +5,32 @@ div.card:hover {
 div.card:not(:hover){
     transition: 0.4s;   
 }
+.back-btn{
+    background-color: #ee2719;
+  border: none;
+  color: rgb(232, 250, 255);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 20PXpx;
+  font-weight: 70%;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.6s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.img{
+    height: 755px;
+    width: 555px;
+}
+.details{
+    text-align: center;
+}
+/* .my{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5px;
+} */
+
+ 
